@@ -1,0 +1,34 @@
+p {
+  font-size: 18px;
+}
+
+/*--- Main Backgroun Image ---*/
+.hero-image {
+  margin-top: -70px;
+}
+
+/*--- Aspect Ratio Box ---*/
+.aspectRatioBox {
+  padding-top: calc(2 / 3 * 100%); /* aspect ratio 3:2 */
+  background-size: cover;
+  background-position: center;
+}
+
+/*--- Scrolling Portfolio ---*/
+.scrollable-row {
+  overflow-x: scroll;
+  margin-left: -24px;
+  margin-right: -24px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.scrolling-title {
+  color: black;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+.scrolling-title:hover {
+  color: black;
+}
