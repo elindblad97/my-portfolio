@@ -4,7 +4,7 @@ p {
 
 /*--- Main Background Image ---*/
 .hero-image {
-  margin-top: -70px;
+  margin-top: -300px;
 }
 
 /*--- Aspect Ratio Box ---*/
@@ -46,4 +46,64 @@ p {
 
 .scrolling-title:hover {
   color: black;
+}
+
+/*--- Contact ---*/
+.email {
+  background-color: #e7eb7f;
+}
+
+.socials {
+  background-color: #48abe8;
+}
+
+.altcademy {
+background-color: lightsalmon;
+}
+
+.my-email {
+  color: #48abe8 ;
+  text-decoration: none;
+}
+
+.brands {
+  color: black;
+  text-align: center;
+  font-size: 30px;
+}
+
+.alt-link {
+  color: #48abe8;
+  text-decoration: none;
+}
+
+/*--- Footer ---*/
+.footer {
+  background-color: lightgray;
+}
+
+@media (max-width:768px) {
+  .about-text {
+    font-size: 14px;
+  }
+
+  .brands {
+    font-size: 20px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .scrolling-title {
+    font-size: 16px;
+  }
 }
